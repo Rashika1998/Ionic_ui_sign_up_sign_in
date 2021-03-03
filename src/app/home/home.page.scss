@@ -1,3 +1,15 @@
+ion-content{
+  ion-header{
+    ion-toolbar{
+      ion-title{
+        font-size:20px;
+      }
+    }
+  }
+}
+
+
+
 #container {
   text-align: center;
 
@@ -6,6 +18,19 @@
   right: 0;
   top: 50%;
   transform: translateY(-50%);
+
+  img{
+    border-radius:50%;
+  }
+
+  ion-button{
+    width:300px;
+    color:white;
+  }
+
+  p{
+    margin:20px;
+  }
 }
 
 #container strong {
